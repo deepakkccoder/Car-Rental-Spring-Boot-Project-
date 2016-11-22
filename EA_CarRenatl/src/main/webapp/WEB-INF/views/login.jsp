@@ -12,8 +12,7 @@
 <body>
 <h1> Login Page</h1>
 
-<form action="<c:url value="/j_spring_security_check"></c:url>" method=
-"post">
+<form action="<c:url value="/j_spring_security_check"></c:url>" method="post">
 	User: <input name="username" />
 	<br/>
 	Password: <input type="password" name='password'/>

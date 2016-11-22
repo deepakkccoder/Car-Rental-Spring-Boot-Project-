@@ -18,7 +18,7 @@ public class Account {
 	@NotEmpty
 	@Size(min=5, max=20, message="{password.size}")
 	private String password;
-	@Enumerated(EnumType.ORDINAL)
+	@Enumerated(EnumType.STRING)
 	private Role hasRole;
 	private boolean enabled;
 	public boolean isEnabled() {
